@@ -79,7 +79,7 @@ Vagrant.configure(2) do |config|
      cp /vagrant/elasticsearch.yml /etc/elasticsearch/
      echo "192.168.4.40   es-client-01" >> /etc/hosts
      echo "192.168.4.41   es-master-01" >> /etc/hosts
-     echo "192.168.4.42   es-data-02" >> /etc/hosts
+     echo "192.168.4.42   es-data-01" >> /etc/hosts
      sudo service elasticsearch restart
 
 
